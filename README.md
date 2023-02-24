@@ -21,7 +21,11 @@ A tabela abaixo indica os valores de Acurácia, precisão e recall médio, AUC e
 
 Acurácia Média  | Precisão Média | Recall Média| AUC   | Erros |
 --------------  | -------------- | ----------- | ----- | ----- |
-75.0%           | 66.0%          | 50.0%       | 75.5% | 43    |
+76.0%           | 66.0%          | 50.0%       | 75.5% | 43    |
+
+
+![image](https://user-images.githubusercontent.com/81670585/221262798-d58c8d95-83eb-4293-8dd4-dfa2723e0df0.png)
+![image](https://user-images.githubusercontent.com/81670585/221262814-b00bd75d-4401-4289-b8a1-db90e502e3d9.png)
 
 
 <h3 align="left">Contato:</h3>
