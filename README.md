@@ -24,6 +24,7 @@ Acurácia Média  | Precisão Média | Recall Média| AUC   | Erros |
 76.0%           | 66.0%          | 50.0%       | 75.5% | 43    |
 
 * Matriz de Confusão e Curva ROC do modelo vencedor
+
 ![image](https://user-images.githubusercontent.com/81670585/221262798-d58c8d95-83eb-4293-8dd4-dfa2723e0df0.png)
 
 
