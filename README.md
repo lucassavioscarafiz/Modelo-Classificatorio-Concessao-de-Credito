@@ -2,7 +2,7 @@
 
 ## 1.0 OBJETIVO DO CASE
 
-Neste case irei abordar a criação de **modelos supervisionados de classificação**, utilizando os principais algoritmos de Machine Learning, e irei testar sua performance e taxa de acerto visando buscar o melhor modelo de risco preditivo criado.
+Neste case irei abordar a criação de **modelos supervisionados de classificação**, utilizando os principais algoritmos de Machine Learning, e irei testar sua performance e taxa de acerto visando buscar o melhor modelo de risco criado.
 
 Para a criação de modelos classificatórios utilizarei um dataset de risco de concessão de crédito, onde o objetivo é classificar os clientes em altas chances de concessão e baixas chances de concessão de acordo com suas informações pessoais de cunho pessoal e financeiro.
 
