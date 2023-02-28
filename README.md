@@ -1,13 +1,13 @@
 # Modelo-Preditivo-Concessao de Credito
 
-## OBJETIVO DO CASE
+## 1.0 OBJETIVO DO CASE
 
 Neste case irei abordar a criação de **modelos preditivos supervisionados, de classificação**, utilizando os principais algoritmos de Machine Learning, e irei testar sua performance e taxa de acerto visando buscar o melhor modelo de risco preditivo criado.
 
 Para a criação de modelos classificatórios utilizarei um dataset de risco de concessão de crédito, onde o objetivo é classificar os clientes em altas chances de concessão e baixas chances de concessão de acordo com suas informações pessoais de cunho pessoal e financeiro.
 
 
-## METODOLOGIA
+## 2.0 METODOLOGIA
 
 Utilizei algoritmos de Machine Learning como: `Regressão Logística`, `DecisionTree`, `RandomForest`, `KNN`, `Bagging`, `GradientBoostingClassifier` e `XGBoost` para buscar o melhor modelo classificatório de acordo com o **alto risco** de concessão de crédito, além de importantes métricas de pontuação do modelo como: `Acurácia`, `Precisão`,`Recall`,`Curva ROC` e `AUC` (Area Under the roc Curve). Também foi utilizado `GridSearch` e `RandomizedSearch` para encontrar os melhores hiperparâmetros de cada modelo de forma que pudesse aperfeiçoar o modelo classificatório.
 
@@ -15,7 +15,7 @@ Cada modelo terá uma acurácia e uma AUC diferente do outro e o ideal não é f
 
 Ainda que um modelo tenha uma acurácia menor que o outro, isso não significa que ele seja necessariamente pior. O objetivo é evitar ao máximo a concessão de crédito para pessoas arriscadas. É claro que o modelo não é perfeito e vai deixar de conceder crédito para pessoas que "mereciam", porém o mais importante é o modelo errar o menos possível na concessão de crédito para pessoas com **alto risco**.Se o modelo previu o cliente como 0 (Sem risco) quando na verdade ele é 1 (Arriscado), então o modelo concedeu crédito para uma pessoa arriscada, e esse é o erro crucial que o modelo deve evitar. Então esse é o principal indicador que irei visualizar, além da AUC e da Acurácia.
 
-## RESULTADO
+## 3.0 RESULTADOS
 
 A tabela abaixo indica os valores de Acurácia, precisão e recall médio, AUC e quantas pessoas de alto risco tiveram concessão de crédito de forma errônea do modelo vencedor que foi construído utilizando o algoritmo `GradientBoostingClassifier` com os melhores hiperparâmetros encontrados pelo `GridSearch`.
 
