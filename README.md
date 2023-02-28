@@ -1,4 +1,4 @@
-# Modelo-Preditivo-Concessao de Credito
+# Modelo Classificatório para Concessao de Credito
 
 ## 1.0 OBJETIVO DO CASE
 
